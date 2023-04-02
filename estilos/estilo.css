@@ -1,0 +1,7 @@
+.logotipo {
+  max-width: 100px;
+}
+a:focus,
+a:hover {
+  border: 1px solid #F00;
+}
