@@ -10,14 +10,6 @@ $email = $_SESSION['email_usuario'];
 
 $hashsenha = trim(ltrim(password_hash($senha, algo:PASSWORD_DEFAULT)));
 
-/*
-echo "$nome <br>";
-echo "$senha <br>";
-echo "$email <br>";
-echo "$hashsenha <br><br>";
-*/
-
-
 try {
     $stmt = $conn->prepare('UPDATE usuarios SET nome = :nome, senha = :senha, hashsenha = :hashsenha  WHERE email = :email');
     $stmt->bindParam("nome",$nome);
