@@ -60,7 +60,7 @@ function isIguais($senha,$confsenha){
 
 //Validar se a senha e a confirmação de senha são iguais
 if (isIguais($senha,$confsenha) == false){
-    //header("Location:formulario.php?nome=$nome&email=$email&senhaval1=$senha&confsenha=$confsenha");
+    
     header("Location:formulario.php?senhaval1=erro");
 }
     
@@ -84,7 +84,7 @@ if (validar_tamanho_nome($nome) == true){
 
 //Validar se existe campo vazio
 if (validar_campo_vazio($nome,$email,$senha,$confsenha) == true){
-    //header("Location:formulario.php?vnome=$nome&vemail=$email&vsenha=$senha&vconfsenha=$confsenha");
+
     header("Location:formulario.php?vnome=erro&vemail=erro&vsenha=erro&vconfsenha=erro");
 }
 
