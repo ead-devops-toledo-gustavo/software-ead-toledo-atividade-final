@@ -10,12 +10,7 @@ $email = $_SESSION['email_usuario'];
 $senha = $_SESSION['senha_usuario'];
 $confsenha = $_SESSION['conf_senha_usuario'];
 
-/*
-$nome = $_GET["nome"];
-$email = $_GET["email"];
-$senha = $_GET["senha"];
-$confsenha = $_GET["confsenha"];
-*/
+
 $hashsenha = trim(ltrim(password_hash($senha, algo:PASSWORD_DEFAULT)));
 
 try {
