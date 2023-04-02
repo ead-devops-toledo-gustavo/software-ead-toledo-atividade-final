@@ -12,9 +12,6 @@ if(!isset($_COOKIE['senha'])){
   $_COOKIE['senha'] = "";
 }
 
-//$_COOKIE['email'] = "";
-//$_COOKIE['senha'] = "";
-
 $loginemail1 = $_COOKIE['email'];
 $loginsenha1 = $_COOKIE['senha'];
 $scookies = "";
