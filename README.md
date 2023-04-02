@@ -3,7 +3,7 @@ Software para gerenciar o login de acesso com BD.
 
 Software para controlar do acesso bem como geração de cookies.
 
-Principais itens utilizadas:
+Principais Languages:
 - HTML;
 - CSS;
 - PHP;
